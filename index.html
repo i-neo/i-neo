@@ -20,48 +20,55 @@
 
     header {
       text-align: left;
-      margin-bottom: 20;
-      padding-bottom: 20px;
+      margin: 20;
+      padding: 20px;
       color: #000;
+      display: flex;
+      justify-content: space-between;
     }
+
+    header h1 span:nth-child(1) {
+      font-weight: bold;
+      font-size: 25px;
+    }
+
 
     header h1 span:nth-child(2) {
       font-family: Arial;
       display: block;
-      font-size: 50px;
-      margin-bottom: -5px;
+      font-size: 40px;
     }
 
     header .cert {
+      margin-top: -5px;
       font-size: 14px;
-      letter-spacing: 1.8px;
-      font-family: arial;
-      margin-left: 267px;
-      margin-bottom: -15px;
       display: block;
-    }
-
-    header .cert strong {
-      font-family: arial;
-      font-style: normal;
-      letter-spacing: 0;
-      ;
+      color: rgb(22, 22, 22);
+      word-spacing: 3px;
+      letter-spacing: 4px;
     }
 
     .header a {
       color: #077293;
     }
 
-    .header img {
+    .header img.photo {
+      width: 200px;
+      border-radius: 30px;
+      overflow: hidden;
       display: block;
-      float: right;
+      clear: both;
+      margin: 20px;
+      margin-bottom: 0px;
+      box-shadow: 0px 0px 60px 0px rgb(26, 120, 253);
+
     }
 
     .header h4 {
       height: 15px;
     }
 
-    .header h4 span:first-of-type {
+    .header h4 span {
       display: inline-block;
       width: 70px;
       text-align: right;
@@ -70,22 +77,20 @@
       padding-right: 10px;
     }
 
-    .content .about {
+    .about {
       text-align: justify;
-      text-indent: 40px;
       padding: 25px 30px;
       border-left: 20px solid;
       border-color: rgb(94, 94, 94);
       color: rgb(21, 21, 21);
       background-color: rgb(199, 199, 199);
       line-height: 25px;
-      width: 70%;
       margin-bottom: 20px;
       font-size: 18px;
     }
 
     .content div {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .content h1 {
@@ -141,31 +146,37 @@
 
 <body>
   <header class="header">
-    <h1>
-      <span class="cert">
-        <i>Microsoft Certified Professional <strong>MCP</strong></i>
-      </span>
-      <span>Alaa Farouk Mohammed</span>
-      <span>Software Engineer</span>
-    </h1>
-    <h4><span>Location:</span>Giza - Egypt</h4>
-    <h4><span>Phone:</span><a href="tel:+201004282360">+201004282360</a></h4>
-    <h4><span>Email:</span><a href="mailto:judady@hotmail.com">judady@hotmail.com</a></h4>
-    <img src="" />
+    <div>
+      <h1>
+        <span>Alaa Farouk Mohammed Gomaa</span>
+        <span>Software Engineer</span>
+        <span class="cert">
+          <i>Microsoft Certified Professional</i>
+        </span>
+      </h1>
+      <h4><span>Location:</span>Giza - Egypt</h4>
+      <h4><span>Phone:</span><a href="tel:+201004282360">+201004282360</a></h4>
+      <h4><span>Email:</span><a href="mailto:judady@hotmail.com">judady@hotmail.com</a></h4>
+    </div>
+    <div>
+      <section class="profile">
+        <a href="whatsapp://send?abid=01004282360&text=Hello%2C%20Alaa!"" target=" _blank">
+          <img src="https://img.shields.io/badge/-WhatsApp-white?style=flat&logo=WhatsApp" alt="whatapp" /></a>
+        <a href="https://www.linkedin.com/in/ala2farouk/" target="_blank">
+          <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn" alt="linkedin" /></a>
+        <a href="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" target="_blank">
+          <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" alt="github" />
+        </a>
+      </section>
+      <img class="photo" src="https://github.com/i-neo/i-neo/blob/main/img/alaa.jpg?raw=true" alt="alaa.jpg">
+    </div>
   </header>
   <main class="content">
-    <h2>Career Objectives:</h2>
-    <section class="profile">
-      <a href="whatsapp://send?abid=01004282360&text=Hello%2C%20Alaa!"" target=" _blank">
-        <img src="https://img.shields.io/badge/-WhatsApp-white?style=flat&logo=WhatsApp" alt="whatapp" /></a>
-      <a href="https://www.linkedin.com/in/ala2farouk/" target="_blank">
-        <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn" alt="linkedin" /></a>
-      <a href="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" target="_blank">
-        <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" alt="github" />
-      </a>
-    </section>
     <section class="about">
-      <i>
+      <h2>Career Objectives</h2>
+      <hr />
+      <i id="secCareerObjectives">
+
         As a software engineer, my career objectives are to continuously working on improving my technical skills,
         stay current with advancements in technology, and gain diverse experience working on a variety of projects.
         I am passionate about mastering programming languages and frameworks relevant to the industry and develop
@@ -180,5 +191,23 @@
   <footer>
   </footer>
 </body>
+<script>
+  window.onload = () => {
+    typeParagraph(document.getElementById('secCareerObjectives'), 30);
+    function typeParagraph(element, speed) {
+      let i = 0;
+      let text = element.innerHTML;
+      element.innerHTML = "";
+      function typeWriter() {
+        if (i < text.length) {
+          element.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+      typeWriter();
+    }
+  };
+</script>
 
 </html>
