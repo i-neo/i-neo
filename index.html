@@ -18,19 +18,36 @@
       color: rgb(0, 0, 0);
     }
 
-    .header {
+    header {
       text-align: left;
-      margin-bottom: 10;
+      margin-bottom: 20;
       padding-bottom: 20px;
       color: #000;
     }
 
-    .header h3 {
-      font-weight: bolder;
+    header h1 span:nth-child(2) {
+      font-family: Arial;
+      display: block;
+      font-size: 50px;
+      margin-bottom: -5px;
+    }
+
+    header .cert {
+      font-size: 14px;
+      letter-spacing: 1.8px;
+      font-family: arial;
+      margin-left: 302px;
+      margin-bottom: -15px;
+      display: block;
     }
 
     .header a {
-      color: #01303e;
+      color: #077293;
+    }
+
+    .header img {
+      display: block;
+      float: right;
     }
 
     .header h4 {
@@ -46,16 +63,11 @@
       padding-right: 10px;
     }
 
-
-    .content {
-      padding-left: 10px;
-    }
-
     .content .about {
-      margin-left: 20px;
+      text-align: justify;
       text-indent: 40px;
-      padding: 15px 25px;
-      border-left: 7px solid;
+      padding: 25px 30px;
+      border-left: 20px solid;
       border-color: rgb(94, 94, 94);
       color: rgb(21, 21, 21);
       background-color: rgb(199, 199, 199);
@@ -65,14 +77,12 @@
       font-size: 18px;
     }
 
-
-
     .content div {
       margin-bottom: 20px;
     }
 
-    .content h3 {
-      color: #000;
+    .content h1 {
+      color: rgb(54, 54, 57);
       padding-bottom: 0px;
     }
 
@@ -124,23 +134,39 @@
 
 <body>
   <header class="header">
-    <h1>Alaa Farouk Mohammed</h1>
-    <h4><span>Location:</span><span>Giza - Egypt</span></h4>
-    <h4><span>Phone:</span><span><a href="tel:+201004282360">+201004282360</a></span></h4>
-    <h4><span>Email:</span><span><a href="mailto:judady@hotmail.com">judady@hotmail.com</a></span></h4>
-    <h4><span>Profile:</span><span><a href="https://www.linkedin.com/in/ala2farouk/" target="_blank">LinkedIn</a></span>
-      - <span><a href="https://github.com/i-neo" target="_blank">GitHub</a></span>
-    </h4>
+    <h1>
+      <span class="cert">
+        <i>Microsoft Certified Professional</i>
+      </span>
+      <span>Alaa Farouk Mohammed</span>
+      <span>Software Engineer</span>
+    </h1>
+    <h4><span>Location:</span>Giza - Egypt</h4>
+    <h4><span>Phone:</span><a href="tel:+201004282360">+201004282360</a></h4>
+    <h4><span>Email:</span><a href="mailto:judady@hotmail.com">judady@hotmail.com</a></h4>
   </header>
   <main class="content">
-    <h1>Career Objectives:</h1>
+    <h2>Career Objectives:</h2>
+    <section class="profile">
+      <a href="whatsapp://send?abid=01004282360&text=Hello%2C%20Alaa!"" target=" _blank">
+        <img src="https://img.shields.io/badge/-WhatsApp-white?style=flat&logo=WhatsApp" alt="whatapp" /></a>
+      <a href="https://www.linkedin.com/in/ala2farouk/" target="_blank">
+        <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn" alt="linkedin" /></a>
+      <a href="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" target="_blank">
+        <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" alt="github" />
+      </a>
+    </section>
     <section class="about">
-      As a software engineer, my career objectives are to continuously improve my technical skills, stay current with
-      advancements in technology, and gain diverse experience working on a variety of projects. I aim to master
-      programming languages and frameworks relevant to the industry and develop my skills in software design, testing,
-      and deployment. I also seek to build a strong network of professional contacts and expand my knowledge of Agile
-      methodologies and project management. Additionally, I plan to obtain relevant certifications and contribute to
-      open-source projects, as well as mentor junior developers.
+      <i>
+        As a software engineer, my career objectives are to continuously working on improving my technical skills,
+        stay current with advancements in technology, and gain diverse experience working on a variety of projects.
+        I am passionate about mastering programming languages and frameworks relevant to the industry and develop
+        my skills in software design, testing,and deployment.
+        I also seek to build a strong network of professional contacts and expand my knowledge of Agile
+        methodologies and project management.
+        Additionally, I plan to obtain relevant certifications and contribute to
+        open-source projects, as well as mentor junior developers.
+      </i>
     </section>
   </main>
   <footer>
