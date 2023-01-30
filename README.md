@@ -1,56 +1,65 @@
  Hello there 👋
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-
-
 ```python
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
+# My CV Program
 
+class Professinal:  
+  def __init__(self):
+    self.name = "Alaa Farouk"
+    self.brithDate = '12-12-1975'
+    self.role = "Software Engineer"
+    self.language_spoken = ["ar_EG", "en_US"]
+    self.pastRoles = 
+      [ 
+        'Technical Lead',
+        'Team Lead',
+        'Web Developer'          
+      ]
 
-class SoftwareEngineer:
+  def LeadTeam(self):
+    pass;
 
-    def __init__(self):
-        self.name = "Alaa Farouk"
-        self.role = "Software Engineer"
-        self.language_spoken = ["ar_EG", "en_US"]
+  def TechLeadProject(self):
+    pass;
 
-    def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
-
-
-me = SoftwareEngineer()
-me.say_hi()
+  def BuildApp(self):
+    pass;
 ```
-
-## 🔧 Technologies & Tools
-
-- ![](https://img.shields.io/badge/OS-windows-informational?style=flat&logo=windows&logoColor=white&color=6aa6f8) 
-![](https://img.shields.io/badge/OS-Mac-informational?style=flat&logo=mac&logoColor=white&color=6aa6f8)
-- ![](https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=visual-studio-code&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Editor-VS-informational?style=flat&logo=visual-studio&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Tools-rider-informational?style=flat&logo=rider&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Tools-datagrip-informational?style=flat&logo=datagrip&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Tools-notepad++-informational?style=flat&logo=notepad++&logoColor=white&color=6aa6f8)
-- ![](https://img.shields.io/badge/Code-Csharp-informational?style=flat&logo=csharp&logoColor=white&color=6aa6f8) 
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Code-Golang-informational?style=flat&logo=go&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Code-Typescript-informational?style=flat&logo=typescript&logoColor=white&color=6aa6f8)
-- ![](https://img.shields.io/badge/Frontend-angular-informational?style=flat&logo=angular&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Frontend-Vuejs-informational?style=flat&logo=vuejs&logoColor=white&color=6aa6f8)
-- ![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
-- ![](https://img.shields.io/badge/Database-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Database-MSSQL-informational?style=flat&logo=mssql&logoColor=white&color=6aa6f8)
+## Programming Languages
+- ![](https://img.shields.io/badge/-C%23-black?style=flat) → 😎 
+- ![Javascript](https://img.shields.io/badge/javascript-black?style=flat&logo=javascript) → 😎 
+- ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat&logo=TypeScript&style-for-logo) → 😎 
+- ![Python](https://img.shields.io/badge/-Python-black?style=flat&logo=Python) → 😍
+- ![Go](https://img.shields.io/badge/-Go-black?style=flat&logo=Go) → 🥸 
+- ![Rust](https://img.shields.io/badge/-Rust-black?style=flat&logo=Rust) → 😅
 
 
-<!-- ## &#x1f4c8; GitHub Stats
+ ## Career Objects
+> ---
+> 
+> As a ___Software Engineer___, my career objectives are to:
+>> Continuously improve my technical skills, 
+> stay current with advancements in technology,and gain diverse experience working >on a variety of projects. 
+> ---
+>
+>> Master programming languages and frameworks relevant to the industry and develop my skills in software design, testing, and deployment. 
+>---
+>> Seek to build a strong network of professional contacts and expand my knowledge of Agile methodologies and project management.
+>---
+>> Obtain relevant certifications and contribute 
+> to open-source projects, as well as mentor junior developers.
+>---
+>
+>---
 
-<a href="https://github.com/Zhenye-Na/Zhenye-Na">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhenye-na&hide=c%2B%2B,c,matlab,assembly&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Zhenye's GitHub Stats" />
-</a>
 
-<a href="https://github.com/Zhenye-Na/Zhenye-Na">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=zhenye-na&show_icons=true&line_height=27&count_private=true&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Zhenye's GitHub Stats" />
-</a> -->
+
+
+
+
+
+## Contact Info
+- ![WhatsApp](https://img.shields.io/badge/-WhatsApp-white?style=flat&logo=WhatsApp)
+- ![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn)
+- ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub)
