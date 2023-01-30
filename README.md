@@ -41,15 +41,15 @@ class Professinal:
 > As a ___Software Engineer___, my career objectives are to:
 >> Continuously improve my technical skills, 
 > stay current with advancements in technology,and gain diverse experience working >on a variety of projects. 
-> ---
+> 
 >
 >> Master programming languages and frameworks relevant to the industry and develop my skills in software design, testing, and deployment. 
->---
+>
 >> Seek to build a strong network of professional contacts and expand my knowledge of Agile methodologies and project management.
->---
+>
 >> Obtain relevant certifications and contribute 
 > to open-source projects, as well as mentor junior developers.
->---
+>
 >
 >---
 
