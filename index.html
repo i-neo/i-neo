@@ -6,178 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet" />
-  <style>
-    * {
-      font-family: "Jura";
-    }
-
-    body {
-      margin-left: 50px;
-      margin-right: 50px;
-      background-color: rgb(215, 215, 215);
-      color: rgb(0, 0, 0);
-    }
-
-    header {
-      text-align: left;
-      margin: 20;
-      padding: 20px;
-      color: #000;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    header h1 span:nth-child(1) {
-      font-weight: bold;
-      font-size: 25px;
-    }
-
-
-    header h1 span:nth-child(2) {
-      font-family: Arial;
-      display: block;
-      font-size: 40px;
-    }
-
-    header .cert {
-      margin-top: -5px;
-      font-size: 14px;
-      display: block;
-      color: rgb(22, 22, 22);
-      word-spacing: 3px;
-      letter-spacing: 4px;
-    }
-
-    .header a {
-      color: #077293;
-    }
-
-    .header img.photo {
-      width: 200px;
-      border-radius: 30px;
-      overflow: hidden;
-      display: block;
-      clear: both;
-      margin: 20px;
-      margin-bottom: 0px;
-      box-shadow: 0px 0px 60px 0px rgb(26, 120, 253);
-
-    }
-
-    .header h4 {
-      height: 15px;
-    }
-
-    .header h4 span {
-      display: inline-block;
-      width: 70px;
-      text-align: right;
-      font-weight: bold;
-      color: rgb(0, 0, 0);
-      padding-right: 10px;
-    }
-
-    .about {
-      text-align: justify;
-      padding: 25px 30px;
-      border-left: 20px solid;
-      border-color: rgb(94, 94, 94);
-      color: rgb(21, 21, 21);
-      background-color: rgb(199, 199, 199);
-      line-height: 25px;
-      margin-bottom: 20px;
-      font-size: 18px;
-    }
-
-    .content div {
-      margin-bottom: 10px;
-    }
-
-    .content h1 {
-      color: rgb(54, 54, 57);
-      padding-bottom: 0px;
-    }
-
-    .context ul.list li {
-      margin-top: 0px;
-    }
-
-    .inline li {
-      display: inline;
-      padding: 5px 5px;
-      /* color: #2196f3; */
-
-      line-height: 45px;
-    }
-
-    li span {
-      display: inline-block;
-    }
-
-    .inline li::after {
-      content: ",";
-    }
-
-    .content h2 {
-      color: #000;
-      font-weight: bolder;
-    }
-
-    .work {
-      /* margin-left: 5px; */
-      text-decoration: underline;
-    }
-
-    .links a {
-      font-size: large;
-    }
-
-    a {
-      text-decoration: underline;
-    }
-
-    * {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  </style>
-  <title>Alaa Farouk</title>
+  <link rel="stylesheet" href="style.css" />
+  <title>Alaa Farouk CV</title>
 </head>
 
 <body>
-  <header class="header">
-    <div>
-      <h1>
-        <span>Alaa Farouk Mohammed Gomaa</span>
-        <span>Software Engineer</span>
-        <span class="cert">
-          <i>Microsoft Certified Professional</i>
-        </span>
-      </h1>
-      <h4><span>Location:</span>Giza - Egypt</h4>
-      <h4><span>Phone:</span><a href="tel:+201004282360">+201004282360</a></h4>
-      <h4><span>Email:</span><a href="mailto:judady@hotmail.com">judady@hotmail.com</a></h4>
-    </div>
-    <div>
-      <section class="profile">
-        <a href="whatsapp://send?abid=01004282360&text=Hello%2C%20Alaa!"" target=" _blank">
-          <img src="https://img.shields.io/badge/-WhatsApp-white?style=flat&logo=WhatsApp" alt="whatapp" /></a>
-        <a href="https://www.linkedin.com/in/ala2farouk/" target="_blank">
-          <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn" alt="linkedin" /></a>
-        <a href="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" target="_blank">
-          <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" alt="github" />
-        </a>
-      </section>
-      <img class="photo" src="https://github.com/i-neo/i-neo/blob/main/img/alaa.jpg?raw=true" alt="alaa.jpg">
-    </div>
+  <header>
+    <section>
+      <img src="./assets/engineer.png" alt="engineer icon" />
+      Alaa Farouk Mohamed Gomaa
+      <h1>Software Engineer</h1>
+      <div>Microsoft Certified Professional MCP &trade; 2010</div>
+    </section>
+    <section>
+      <div>
+        <h2>Contact Information</h2>
+        <div>
+          <div><i><img src="./assets/smartphone.png" alt="phone icon" /> Phone:</i> 01004282360</div>
+          <div><i><img src="./assets/email.png" alt="email icon" /> Email:</i> i-neo@outlook.com</div>
+          <div><i><img src="./assets/map.png" alt="map icon" /> Location:</i> Gize - Egypt</div>
+        </div>
+        <div>
+          <a href="whatsapp://send?abid=01004282360&text=Hello%2C%20Alaa!" target=" _blank">
+            <img src="https://img.shields.io/badge/-WhatsApp-white?style=flat&logo=WhatsApp" alt="whatapp" /></a>
+          <a href="https://www.linkedin.com/in/ala2farouk/" target="_blank">
+            <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=LinkedIn" alt="linkedin" /></a>
+          <a href="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" target="_blank">
+            <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=GitHub" alt="github" />
+          </a>
+        </div>
+        <div>
+          Spoken Languages:
+          <span>English</span><span>Arabic</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img src="https://github.com/i-neo/i-neo/blob/main/img/alaa.jpg?raw=true" alt="alaa.jpg">
+      </div>
+    </section>
   </header>
-  <main class="content">
-    <section class="about">
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+      </p>
+    </section>
+    <section>
+      <img src="assets/objective.png" alt="objectives icon" />
       <h2>Career Objectives</h2>
-      <hr />
-      <i id="secCareerObjectives">
-
-        As a software engineer, my career objectives are to continuously working on improving my technical skills,
+      <p>
+        My career objectives are to continuously working on improving my technical skills,
         stay current with advancements in technology, and gain diverse experience working on a variety of projects.
         I am passionate about mastering programming languages and frameworks relevant to the industry and develop
         my skills in software design, testing,and deployment.
@@ -185,29 +65,157 @@
         methodologies and project management.
         Additionally, I plan to obtain relevant certifications and contribute to
         open-source projects, as well as mentor junior developers.
-      </i>
+      </p>
+    </section>
+    <section>
+      <img src="assets/skills.png" alt="skills icon" />
+      <h2>Technical Skills</h2>
+    </section>
+    <section>
+      <img src="./assets/workers.png" alt="work experience icon">
+      <h2>Work Experience</h2>
+      <section>
+        <dl>
+          <dt><img src="./assets/gear-assembly.png" alt="role icon" /> Role</dt>
+          <dd>Project Technical Lead</dd>
+          <dd>Company Name</dd>
+          <dt>Digital Magna</dt>
+          <dt>Date</dt>
+          <dd><span>From </span> Feb 1, 2021<span> To </span> Dec 31, 2022</dd>
+          <dt>Job Description</dt>
+          <dd>
+            <ol>
+              <li>Build company's software development life cycle by utilizing the usage of source control, devops and
+                azure cloud.</li>
+              <li>
+                Code review for all tech stack used in house (.net - angular - flutter).
+              </li>
+              <li>
+                Mentor developers on using clean code and follow best practices building software.
+              </li>
+              <li>
+                Put the software archeticture of the applications at hand.
+              </li>
+              <li>
+                Represent's the company in the initial technical meetings with the clients to elemeniate all the
+                obstacles towards achieving the businness needs of the project
+              </li>
+              <li>
+                Help In debugging the most tough bugs that may face the team and solve the hardest tech issues that may
+                araise along the development/deploy journey of the project.
+              </li>
+              <li>
+                Help in constructing the company's vision around choosing technology stacks, frameworks and tools..etc.
+              </li>
+            </ol>
+          </dd>
+        </dl>
+      </section>
+      <section>
+        <dl>
+          <dt><img src="./assets/gear-assembly.png" alt="role icon" /> Role</dt>
+          <dd>Project Technical Team Lead</dd>
+          <dd>Company Name</dd>
+          <dt>ITPharaohs</dt>
+          <dt>Date</dt>
+          <dd><span>From </span> Feb 1, 2014<span> To </span> Feb 30, 2019</dd>
+          <dt>Job Description</dt>
+          <dd>
+            <ol>
+              <li>
+                Execute the development tasks assigned to me as part of the development team.
+              </li>
+              <li>
+                Code review for all team members (.net - angular).
+              </li>
+              <li>
+                Mentor junior developers on using clean code and follow best practices building software.
+              </li>
+              <li>
+                Help in constructing the software archeticture of the applications at hand.
+              </li>
+              <li>
+                Help In debugging the most tough bugs that may face the team and solve the hardest tech issues that may
+                araise along the development/deploy journey of the project.
+              </li>
+            </ol>
+          </dd>
+        </dl>
+      </section>
+      <section>
+        <dl>
+          <dt><img src="./assets/gear-assembly.png" alt="role icon" /> Role</dt>
+          <dd>Software Engineer</dd>
+          <dd>Company Name</dd>
+          <dt>International Center For Future & Stratigic Studies (ICFS)</dt>
+          <dt>Date</dt>
+          <dd><span>From </span> Mar 19, 2004<span> To </span> Nov 30, 2013</dd>
+          <dt>Job Description</dt>
+          <dd>
+            <p>
+              I was considered one of the founders as i was the one
+            <ul>
+              <li>Built thier main website which was up and running without issues for years</li>
+              <li>Was responsible for developing any project or utlity tool they found in need to have.</li>
+              <li>Couple years later i helped in constructing the center software development team.</li>
+            </ul>
+            </p>
+          </dd>
+          <dt>
+            Tech Stack & Programming Languages
+          </dt>
+          <dd>
+            <ul>
+              <li>asp.net</li>
+              <li>sql server</li>
+              <li>windows forms</li>
+              <li>windows services</li>
+              <li>C# - Javascript</li>
+              <li>JQuery</li>
+              <li>Sqlite</li>
+            </ul>
+          </dd>
+        </dl>
+      </section>
+      <section>
+        <dl>
+          <dt><img src="./assets/gear-assembly.png" alt="role icon" /> Role</dt>
+          <dd>Junior Computer Programmer</dd>
+          <dd>Company Name</dd>
+          <dt>Nile Information Technology - NIT</dt>
+          <dt>Date</dt>
+          <dd><span>From </span> Feb 1, 2001<span> To </span> Oct 30, 2003</dd>
+          <dt>Job Description</dt>
+          <dd>
+            <p>
+              At that company i made my first practical experience journey around web development where i was doing the
+              following:
+            <ul>
+              <li>Execute the development of tasks assigned to me.</li>
+              <li>Refactor and improve under the mentorship of my team leader.</li>
+              <li>Continued on developing / maintaining company's main accounting windows application.</li>
+            </ul>
+            </p>
+          </dd>
+          <dt>
+            Tech Stack & Programming Languages
+          </dt>
+          <dd>
+            <ul>
+              <li>asp</li>
+              <li>sql server</li>
+              <li>windows forms</li>
+              <li>C#</li>
+              <li>Javascript</li>
+            </ul>
+          </dd>
+        </dl>
+      </section>
     </section>
   </main>
   <footer>
+    Copyrights &copy; 2023 <spann>Powred by i-neo</spann>
   </footer>
 </body>
-<script>
-  window.onload = () => {
-    typeParagraph(document.getElementById('secCareerObjectives'), 30);
-    function typeParagraph(element, speed) {
-      let i = 0;
-      let text = element.innerHTML;
-      element.innerHTML = "";
-      function typeWriter() {
-        if (i < text.length) {
-          element.innerHTML += text.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
-        }
-      }
-      typeWriter();
-    }
-  };
-</script>
 
 </html>
